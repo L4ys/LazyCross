@@ -3,6 +3,11 @@
 ![](logo.png)
 ---
 
+> [!NOTE]
+> IDA 9.2 has similar functionality built-in  
+> https://docs.hex-rays.com/release-notes/9_2#show-all-call-xref-decompilations
+
+
 ## About the Plugin
 
 An IDA Pro plugin that displays cross-references to functions or variables across the entire binary in Hex-Rays pseudocode.
