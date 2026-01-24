@@ -18,6 +18,13 @@ An IDA Pro plugin that displays cross-references to functions or variables acros
 
 ## Installation
 
+### Method 1: Using hcli (Recommended)
+
+```
+hcli plugin install LazyCross
+```
+
+### Method 2: Manual Installation
 
 1. Download or clone this repository.
 2. Copy `LazyCross.py` into your IDA plugins directory:

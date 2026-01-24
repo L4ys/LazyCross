@@ -3,10 +3,35 @@
   "plugin": {
     "name": "LazyCross",
     "entryPoint": "LazyCross.py",
-    "categories": ["decompilation", "api-scripting-and-automation"],
-    "logoPath": "logo.png",
+    "version": "1.0.0",
     "idaVersions": ">=7.4",
     "description": "Display cross-references to functions and variables across the entire binary in Hex-Rays pseudocode",
-    "version": "1.0.0"
+    "license": "GPL-3.0",
+    "logoPath": "logo.png",
+    "categories": [
+      "decompilation",
+      "api-scripting-and-automation"
+    ],
+    "keywords": [
+      "xref",
+      "cross-reference",
+      "hex-rays",
+      "decompilation"
+    ],
+    "urls": {
+      "repository": "https://github.com/L4ys/LazyCross"
+    },
+    "authors": [
+      {
+        "name": "Lays",
+        "email": "l4ys.tw@gmail.com"
+      }
+    ],
+    "platforms": [
+      "windows-x86_64",
+      "linux-x86_64",
+      "macos-x86_64",
+      "macos-aarch64"
+    ]
   }
 }
