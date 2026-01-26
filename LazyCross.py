@@ -104,6 +104,11 @@ def show_xref(ea):
     demangled = idc.demangle_name(name, idc.get_inf_attr(idc.INF_SHORT_DN))
     if demangled:
         name = demangled
+    
+    if not name:
+        print(f"LazyCross: Invalid name")
+        return
+    
     print(f"LazyCross: Find cross reference to {name}...")
 
     found = []
